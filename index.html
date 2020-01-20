@@ -60,6 +60,10 @@
     <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css">
 
+
+    <!-- Timer style  -->
+    <link rel="stylesheet" href="css/timer.css">
+
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
     <!-- FOR IE9 below -->
@@ -122,7 +126,19 @@
                             <div class="display-tc animate-box" data-animate-effect="fadeIn">
                                 <h1>Sumanth &amp; Deepika</h1>
                                 <h2>Mr & Mrs in:</h2>
-                                <div class="simply-countdown simply-countdown-one"></div>
+                               
+
+                                <div id="timerDiv" >
+                        
+                                    <ul>
+                                      <li id="daysItem"><span id="days"></span>days</li>
+                                      <li id="hoursItem"><span id="hours"></span>Hours</li>
+                                      <li id="minutesItem"><span id="minutes"></span>Minutes</li>
+                                      <li id="secondsItem"><span id="seconds"></span>Seconds</liid="daysItem>
+                                    </ul>
+                                  </div>
+
+
                                 <p><a href="#" class="btn btn-default btn-sm">Save the date and scroll the page now!</a></p>
                             </div>
                         </div>
@@ -694,29 +710,13 @@
     <script src="js/magnific-popup-options.js"></script>
 
     <!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+
     <script src="js/simplyCountdown.js"></script>
+
     <!-- Main -->
     <script src="js/main.js"></script>
 
-    <script>
-        var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
-
-        // default example
-        simplyCountdown('.simply-countdown-one', {
-            year: d.getFullYear(),
-            month: d.getMonth() + 1,
-            day: d.getDate()
-        });
-
-        //jQuery example
-        $('#simply-countdown-losange').simplyCountdown({
-            year: d.getFullYear(),
-            month: d.getMonth() + 1,
-            day: d.getDate(),
-            enableUtc: false
-        });
-    </script>
-
+   
 </body>
 
 </html>

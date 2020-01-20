@@ -1,0 +1,57 @@
+
+#timerDiv {
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-family: "Work Sans", Arial, sans-serif;
+
+  }
+  
+
+  
+  #daysItem   {
+    display: inline-block;
+    list-style-type: none;  
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
+  #hoursItem   {
+    display: inline-block;
+    list-style-type: none;  
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
+  #minutesItem   {
+    display: inline-block;
+    list-style-type: none;  
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
+
+  #secondsItem   {
+    display: inline-block;
+    list-style-type: none;  
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
